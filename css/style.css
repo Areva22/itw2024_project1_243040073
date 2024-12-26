@@ -1,0 +1,223 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+   
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+
+   
+}
+
+nav a:hover {
+    color: #793727;
+  
+
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.hero-text h2 span {
+    color: #c44b26;
+}
+
+.hero-text p {
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+.hero-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* About Section */
+.about, .study, .hobby, .email {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.about {
+    background: #ffddc1;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.about p {
+    font-size: 1em;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #555;
+}
+
+/* Study Section */
+.study {
+    background: #fff;
+}
+
+.study h2 {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+.study-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.study-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1.5em;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.study-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #ff5733;
+}
+
+.study-item p {
+    color: #4e4b4b;
+}
+
+
+/* Hobby Section */
+.hobby   {
+   
+    background: #743636;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 30px;
+    align-items: center; 
+   border-radius: 8px;
+}
+
+.hobby h2 {
+    font-size: 2em;
+    margin-bottom: 0em;
+}
+
+.hobby p {
+    font-size: 1em;
+    max-width:200px;
+    margin: 0 auto;
+    color: white;
+   
+}
+
+
+/* Email Section */
+.email  {
+    background: #743636;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 20px;
+    align-items: center;
+    border-radius: 8px; 
+}
+
+.email h2 {
+    font-size: 2rem;
+    margin-bottom: 0em;
+}
+
+.email p {
+    font-size:1em;
+    margin-bottom: 3em;
+}
+
+.email-button {
+    display: inline-block;
+    background: #ff5733;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.email-button:hover {
+    background: #fff;
+    color: #570808;
+}
+
+
+/* Scroll Down */
+.scroll-down  {
+    text-align: center;
+    margin: 2em 0;
+    font-size: 1em;
+    color: #333;
+}
+
+.scroll-down span {
+    font-size: 2em;
+    display: block;
+    margin-top: 0.5em;
+    color: #ffcc00;
+}
